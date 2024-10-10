@@ -1,0 +1,11 @@
+[project]
+name = "1010-gradio-v5"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "boto3-stubs[bedrock-agent-runtime,bedrock-runtime]>=1.35.37",
+    "boto3>=1.35.37",
+    "gradio>=5.0.1",
+]
